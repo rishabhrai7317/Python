@@ -1,0 +1,16 @@
+from turtle import *
+speed('slowest')
+fillcolor('red')
+pencolor('red')
+for i in range(5):
+    lt(72)
+    penup()
+    fd(80)
+    pendown()
+    begin_fill()
+    circle(25)
+    end_fill()
+    penup()
+    bk(80)
+    pendown()
+mainloop()    
